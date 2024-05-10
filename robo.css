@@ -1,0 +1,239 @@
+html, body {
+    overflow: hidden;
+   }
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+.gradiente{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: linear-gradient(rgb(55, 1, 74), #b998fe);
+}
+.container{
+    width: 500px;
+    height: 500px;
+    position:absolute;
+    margin: auto;
+    left :0;
+    right :0;
+    bottom:0; 
+    top:0;
+    
+
+
+}
+.robo{
+bottom: 200px;
+left: 200px;
+position: absolute;
+
+}
+.corpo{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 0 0  30% 30%;
+    border-color: rgb(148, 148, 148);
+    border-style:solid;
+    background-color:#2e2e2e ;
+}
+.peito{
+    width: 60px;
+    height: 50px;
+    border-radius: 0 0  30% 30%;
+    border-color: rgb(148, 148, 148);
+    border-style:solid;
+    position: relative;
+    left: 17px;
+    background-color:#434343 ;
+}
+.luzP{
+    width: 14px;
+    height:14px;
+    border-radius:100%;
+    border-color: rgb(148, 148, 148);
+    border-style:solid;
+    position: relative;
+    left: 35%;
+    top: 20px;
+    border-width: 0.5px;
+    background-color: aliceblue;
+}
+.perna-l,.perna-r{
+height: 60px;
+width: 20px;
+
+border-color: rgb(148, 148, 148);
+border-style:solid;
+position: absolute;
+background-color:#2e2e2e ;
+
+}
+.perna-l{
+    top: 100px;
+    left: 14px;
+    border-radius: 20% 0 0 0;
+
+}
+.perna-r{
+    top: 100px;
+    left: 60px;
+    border-radius:0 20% 0 0;
+}
+.joelho-l,.joelho-r{
+width: 25px;
+height: 23px;
+border-color: rgb(148, 148, 148);
+border-style:solid;
+position: absolute;
+border-radius: 100%;
+background-color:#434343 ;
+left: -3px;
+top: 20px;
+border-width: 1px;
+}
+.pe-l,.pe-r{
+    width: 30px;
+    height: 15px;
+    border-color: rgb(148, 148, 148);
+border-style:solid;
+position: absolute;
+left:-7px;
+bottom: -10px;
+background-color:#000000 ;
+
+}
+.braco-l,.braco-r{
+    width: 25px;
+    height: 25px;
+    border-color: rgb(148, 148, 148);
+    border-style:solid;
+    position: absolute;
+    background-color:#2e2e2e ;
+}
+.braco-l{
+    right:100px;
+}
+.braco-r{
+    left: 100px;
+}
+.ombro-l,.ombro-r{
+    width: 30px;
+    height: 30px;
+    border-color: rgb(148, 148, 148);
+    border-style:solid;
+    position: absolute;
+    border-radius: 100%;
+    background-color:#434343 ;
+    z-index: 2;
+}
+.ombro-l{
+    right: 10px;
+    top: -4px;
+}
+.ombro-r{
+    left: 10px;
+    top: -4px;
+}
+.anteb-l,.anteb-r{
+    width: 25px;
+    height: 50px;
+    border-color: rgb(148, 148, 148);
+    border-style:solid;
+    position: absolute;
+    background-color:#2e2e2e ;
+    z-index: 1;
+    border-bottom: none;
+}
+.anteb-l{
+    right: 43%;
+    top:10px;
+}
+.anteb-r{
+    left: 43%;
+    top:10px;
+}
+.mao-l,.mao-r{
+    width: 50px;
+    height: 50px;
+border-bottom: none;
+border-left: none;
+border-right: none;
+border-top: solid 4px;
+ border-color: rgb(0, 0, 0);
+ position: absolute;
+ top: 45px;
+ border-radius: 100%;
+ left: -13.5px;
+}
+.mao-r{
+    right: -7px;
+}
+.pescoco{
+    width: 25px;
+    height: 20px;
+    border-color: rgb(148, 148, 148);
+    border-style:solid;
+    position: absolute;
+    left: 35px;
+    bottom: 100px;
+    border-top: none;
+    background-color:#2e2e2e ;
+}
+.cabeca{
+    width: 90px;
+    height: 40px;
+    border-color: rgb(148, 148, 148);
+    border-style:solid;
+    position: absolute;
+    left: 5px;
+    bottom: 120px;
+    border-radius: 15%;
+    background-color:#2e2e2e ;
+}
+.rosto{
+    width: 60px;
+    height: 30px;
+    border-color: rgb(148, 148, 148);
+    border-style:solid;
+    position: relative;
+    left: 12px;
+    border-radius: 15%;
+    background-color:#434343 ;
+}
+.olho-l,.olho-r{
+    width: 10px;
+    height: 10px;
+    border-color: black;
+    border: 0.5px;
+    border-style:solid;
+    position: absolute;
+    border-radius: 100%;
+    background-color: rgb(225, 242, 249);
+}
+.olho-l{
+    top: 10px;
+    left: 4px;
+}
+.olho-r{
+    top: 10px;
+    left: 40px;
+}
+.robo :hover .olho-l{
+    background-color: #ff0000;
+    filter: drop-shadow(3px 4px 47px #ff0000);
+}
+.robo :hover .olho-r{
+    background-color: #ff0000;
+    filter: drop-shadow(3px 4px 47px #ff0000);
+}
+.robo :hover .luzP{
+    background-color: #ff0000;
+    filter: drop-shadow(3px 4px 47px #ff0000);
+}
+    .robo:hover{
+        filter: drop-shadow(3px 4px 47px #9ee3d9);
+    }

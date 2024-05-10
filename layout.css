@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+.fundo{
+    position: absolute;
+    width: 100%;
+    height:290%;
+    background-color: blanchedalmond;
+}
+.nav{
+    background-color: maroon;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+}
+#navt{
+    position: relative;
+ z-index: 21;
+    color: white;
+
+}
+.imagem{
+    position:absolute;
+    background-color: brown;
+    width: 30%;
+    height: 20%;
+    top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+}
+#img{
+    position: relative;
+    color: white;
+}
+.conteudo{
+    position: absolute;
+    width: 60%;
+    height: 20%;
+    background-color: rgb(150, 94, 63);
+    left: 35%;
+    top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:  0 20px 20px 0;
+}
+#conteudo{
+    color: white;
+}
+.img{
+    position: absolute;
+    background-color: rgb(125, 74, 50);
+    margin-left: 5%;
+    width: 90%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    top: 25%;
+    border-radius: 30px;
+    flex-direction: column;
+}
+.imagem2{
+    position:absolute;
+    background-color: brown;
+    width: 30%;
+    height: 20%;
+    top: 1650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 65%;
+}
+.conteudo2{
+    position: absolute;
+    width: 60%;
+    height: 20%;
+    background-color: rgb(150, 94, 63);
+    top: 1650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:   20px 0 0 20px ;
+    margin-left: 5%;
+}
+.conteudo3{
+    position: absolute;
+    top: 2300px;
+    width: 90%;
+    height: 6%;
+    background-color: brown;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    height: 7%;
+    background-color: rgb(125, 74, 50);
+  bottom: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+}

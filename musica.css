@@ -1,0 +1,246 @@
+html, body {
+    overflow: hidden;
+   }
+body{
+    padding: 0;
+    margin: 0;
+    }
+
+.container{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    margin: auto;
+    left :0;
+    right :0;
+    bottom:0; 
+    top:0;
+    background: linear-gradient(0deg, rgb(255, 0, 234) 0%, rgb(255, 0, 0) 100%);
+
+   
+}
+.background{
+    position: absolute;
+    background: rgb(0,252,255);
+    background: linear-gradient(0deg, rgba(0,252,255,1) 0%, rgba(0,118,255,1) 100%);
+      width: 400px;
+    height: 700px;
+    left: 40%;
+    top: 40px;
+    border: 9px solid black;
+    border-radius: 40px;
+    overflow: hidden;
+}
+.bolinha{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    bottom: 100px;
+    border-radius: 100%;
+    background: rgb(0,118,255);
+    background: linear-gradient(0deg, rgba(0,118,255,1) 0%, rgba(0,252,255,1) 100%);
+    z-index: -0;
+    left: -50px;
+ 
+}
+.topo{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(95, 95, 95, 0.283);
+}
+.topo p{
+    font-size: 20px;
+    top: -12px;
+    left: 18px;
+    position: relative;
+    color: white;
+    text-shadow: 2px 1px 5px black;
+}
+.camera{
+    width: 100px;
+    height: 40px;
+    background-color:rgb(0, 0, 0);
+    position: absolute;
+    top: -5px;
+    left: 135px;
+    border-radius: 0px 0px 20px 20px;
+}
+.visor{
+    width: 20px;
+    height: 20px;
+    background-color:rgb(66, 66, 66);
+    position: absolute;
+    border-radius: 100%;
+    top: 10px;
+    left: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.342)
+}
+.img{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    background-color: blueviolet;
+    z-index: 1;
+    top: 150px;
+    left: 51px;
+    border-radius: 20px;
+    
+}
+.img p{
+    font-size: 18px;
+    left: 18px;
+    position: absolute;
+    color: white;
+    text-shadow: 2px 1px 5px black;
+    top: -100px;
+}
+.img h1{
+    font-size: 70px;
+    top: -12px;
+    left: 60px;
+    position: absolute;
+    color: white;
+    text-shadow: 2px 1px 5px black;
+    top: -120px;
+}
+.img img{
+    width: 100%;
+    position: absolute;
+    border-radius: 20px;
+    
+}
+.musica{
+    width: 80%;
+    position: absolute;
+    border-radius: 20px;
+    left: 40px;
+    bottom: 70px;
+    height: 170px;
+    background-color: rgba(255, 255, 255, 0.795);
+    z-index: 1;
+}
+.musica h1{
+    top: -9px;
+    font-size: 21px;
+    left: 60px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 1px 3px rgba(121, 121, 121, 0.733);
+}
+.musica p{
+    font-size: 15px;
+    left: 115px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 1px 3px rgba(121, 121, 121, 0.733);
+    width: 200px;
+    top: 17px;
+}
+.musica input{
+    position: absolute;
+    width: 230px;
+    left: 40px;
+}
+.musica .zero{
+    font-size: 10px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 1px 3px rgba(121, 121, 121, 0.733);
+    left: 10px;
+    top: 47px;
+}
+.musica .final{
+    font-size: 10px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 1px 3px rgba(121, 121, 121, 0.733);
+    left: 280px;
+    top: 47px;
+}
+.voltar{
+    position:absolute;
+    width: 1px;
+    height: 1px;
+    border: solid 25px transparent;
+    border-bottom: solid 25px rgba(0, 0, 0, 0.671);
+    border-top: none;
+    transform: rotate(-90deg);
+    top: 100px;
+    left: 40px;
+}
+.voltar2{
+    position:absolute;
+    width: 1px;
+    height: 1px;
+    border: solid 25px transparent;
+    border-bottom: solid 25px rgba(0, 0, 0, 0.897);
+    border-top: none;
+    top: -15px;
+    left: -25px;
+}
+.passar{
+    position:absolute;
+    width: 1px;
+    height: 1px;
+    border: solid 25px transparent;
+    border-bottom: solid 25px rgba(0, 0, 0, 0.671);
+    border-top: none;
+    transform: rotate(90deg);
+    top: 100px;
+    left: 220px;
+}
+.passar2{
+    position:absolute;
+    width: 1px;
+    height: 1px;
+    border: solid 25px transparent;
+    border-bottom: solid 25px rgba(0, 0, 0, 0.918);
+    border-top: none;
+    top: -15px;
+    left: -25px;
+}
+.pause1{
+    width: 15px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.671);
+    position: relative;
+    border-radius: 20px;
+    left: 40px;
+    bottom: -7px;
+}
+.pause2{
+    width: 15px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.671);
+    position: relative;
+    border-radius: 20px;
+    top: -43px;
+
+}
+.pause{
+    position:absolute;
+    width: 60px;
+    height: 60px;
+    left: 130px;
+    bottom: 30px;
+
+}
+.pause:hover .pause1 {
+background-color: rgba(255, 255, 255, 0);
+}
+.pause:hover .pause2 {
+    background-color: rgba(255, 255, 255, 0);
+    }
+    .pause:hover{
+        position:absolute;
+        width: 1px;
+        height: 1px;
+        border: solid 35px transparent;
+        border-bottom: solid 35px rgba(0, 0, 0, 0.671);
+        border-top: none;
+        transform: rotate(90deg);
+        left: 125px;
+        bottom: 40px;
+    }
+ 

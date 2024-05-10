@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:"Poppins";
+    background-color: rgb(227, 227, 255);
+    height: 100%;
+}
+html, body {
+  overflow: hidden;
+ }
+nav{
+     align-items:center;
+background-color:rgb(0, 35, 94);
+display: flex;
+height :50px;
+justify-content: center;
+position :fixed;
+width :100%;
+z-index: 20;
+}
+#nav{
+color: white;
+}
+section{
+  margin-left: 30px;
+    top: 50px;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items:center;
+    column-gap: 40px;
+    flex-wrap: wrap;
+}
+a{
+    position: relative;
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    background-color: rgb(21, 21, 104);
+    padding: 10px;
+    border-radius: 30px;
+  }
+  a:visited{
+    color:rgb(255, 255, 255);
+  }
+  a:Hover{
+    color: black;
+    background-color: rgb(184, 209, 255);
+  }
+  img{
+    margin-top: 40px;
+    position: relative;
+    width: 370px;
+    height: 370px;
+    border-radius: 20px;
+    -webkit-box-shadow: 10px 13px 16px 0px rgba(140,140,140,1);
+-moz-box-shadow: 10px 13px 16px 0px rgba(140,140,140,1);
+box-shadow: 10px 13px 16px 0px rgba(140,140,140,1);
+
+  }
+  #robo{
+    left: -50%;
+  }
+  #carro{
+    left: -50%;
+  }
+  #musica{
+    left: -50%;
+  }
+  #grafico{
+    left: -50%;
+  }
+  #layout{
+    left: -50%;
+  }
+  #footer{
+    position: absolute;
+    bottom: -20px;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 0;
+    display:flex ;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    
+  }
+  h1{
+    color: white;
+    font-size: 20px;
+    font-family: "Poppins";
+  }
